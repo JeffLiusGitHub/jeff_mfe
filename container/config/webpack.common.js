@@ -7,7 +7,7 @@ module.exports = {
 				test: /\.m?js$/,
 				// end with mjs or js can be processed by babel
 				exclude: /node_modules/,
-				//do not run on node_modules
+				//do not run node_modules
 				use: {
 					loader: 'babel-loader',
 					options: {
